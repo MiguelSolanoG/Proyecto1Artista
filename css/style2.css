@@ -5,7 +5,7 @@ body{
     margin: 0 auto;
 }
 
-nav{
+*{
     box-sizing: border-box;
     margin: 0 px;
 }

@@ -1,16 +1,23 @@
 h1{
     text-align: center;
-    color:darkblue
+    color:darkblue;
 }
 body{background: url;
     background-attachment: fixed;
     background-color:aliceblue;
-    margin: 50px 60px 60px 70px;
+    margin: 50px 200px 60px 200px;
 }
 
+div {
+    width: 1200px;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+
+
 h2{
-    color: black;
-    margin: 40px 50px 30px 30px;
+    color:darkkhaki;
+    margin: 40px 50px 30px 0px;
 }
 a{
     color:red;

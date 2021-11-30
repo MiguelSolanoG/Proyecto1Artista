@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href = "css/style2.css">
+    <title>Silvestre Gangond</title>
+    </head>
+<body style="background-image: url(images/img2.jpg); background-repeat: no-repeat; background-size: cover;">
+    <header>
+        <h1 style="font-size: 60px; text-align: center; color:blanchedalmond;"> Aquí encontrarás información de<br>Silvestre Dangond</h1>
+        <div style="text-align: center;"> 
+        </div>
+    </header>
+    <nav style="font-size: 30px; padding: 50px;">
+        <a href="index.html">Inicio</a>
+        <a href="biografia.html">Biografía</a>
+        <a href="premios.html">Premios</a>
+        <a href="escandalos.html">Escándalos</a>
+    </nav>
+    <div style="margin: 100px 400px 0px 400px;">
+        <form style="color: azure; font-size: 20px;">
+            <h3>Formulario de Registro</h3>
+            <label for="nombre">Nombre: *</label>
+            <input type="text" id="nombre" placeholder="Escriba sus nombres" required><br><br>
+            
+            <label for="apellido">Apellido: *</label>
+            <input type="text" name="prename" id="apellido" placeholder="Escriba sus apellidos" maxlength="25" minlength="8" required><br><br>
+            
+            <label for="edad">Edad: </label>
+            <input type="number" name="edad" id="edad" placeholder="Edad"><br><br>
+            
+            <label for="email">Correo electronico: *</label>
+            <input type="email" name="email" id="email" required><br><br>
+            
+            <label for="password">Contraseña: *</label>
+            <input type="password" name="password" id="password" required minlength="8"><br><br>
+            
+            <label for="tel">Telefono: *</label>
+            <input type="tel" name="telefono" id="tel" placeholder="Celular"><br><br>
+            
+            <label for="date">Fecha de nacimiento: *</label>
+            <input type="date" name="fechas" id="date"><br><br>
+            <div>
+                <label>País de nacimiento</label>
+                <select name="País">
+                    <option value="Colombia">Colombia</option> 
+                    <option value="Argentina">Argentina</option>
+                    <option value="EEUU">EEUU</option>
+                    <option value="Alemania">Alemania</option>
+                    <option value="Otro">Otro</option>
+                </select>
+            </div><br><br>
+            
+            <div>
+                <label>¿Cómo te enteraste de ésta página?</label><br>
+                <input type="radio" name="conect" id="internet"> 
+                <label for="internet">Internet</label>
+                <input type="radio" name="conect" id="redes"> 
+                <label for="redes">Redes sociales</label>
+                <input type="radio" name="conect" id="noticias"> 
+                <label for="noticias ">Noticias</label>
+                <input type="radio" name="conect" id="amigos"> 
+                <label for="amigos">Amigos</label>
+                <input type="radio" name="conect" id="otro"> 
+                <label for="Otro">Otro</label>
+            </div><br><br>
+            
+            <div>
+                <label>¿Qué contenido buscas?</label><br>
+                <input type="checkbox" name="música" id="música"> 
+                <label for="PC">Música</label>
+                <input type="checkbox" name="História"> 
+                <label>História</label>
+                <input type="checkbox" name="Premios"> 
+                <label>Premios</label>
+                <input type="checkbox" name="Polémicas"> 
+                <label>Polémicas</label>
+            </div><br><br>
+            
+            <input type="reset" value="Borrar">
+            <input type="submit" value="Enviar"> 
+        </form>
+    </div>
+</body>
+<div style="margin: 100px 250px 100px 400px;">
+    <footer style="font-size: 20px;color:whitesmoke;text-align: right;">Página elaborada por Miguel Ángel Solano García.</footer>
+</div>
+</html>

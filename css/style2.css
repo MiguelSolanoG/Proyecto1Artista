@@ -1,30 +1,6 @@
 body{
     background-attachment: fixed;
     background-color:beige;
-    width: 2500px; 
     margin: 0 auto;
 }
 
-*{
-    box-sizing: border-box;
-    margin: 0 px;
-}
-
-.menu a{
-    background-color: darkblue;
-    color: cornflowerblue;
-    text-decoration: none;
-    float: left;
-    width: 33%;
-    text-align: center;
-    padding: 20px;
-}
-
-.menu a:hover{
-    background-color: cornflowerblue;
-    color: darkblue;
-}
-
-div{
-    border: none;
-}

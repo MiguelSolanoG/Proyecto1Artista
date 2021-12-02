@@ -1,46 +1,124 @@
-h1{
+.menu a {
+    background-color:gray;
+    color: whitesmoke;
+    text-decoration: black;
+    float: none;
+    width: 25%;
     text-align: center;
-    color:darkblue;
+    padding: 5px;
+    font-size: 20px;
+    margin: 10px;
+    border-radius: 5px;
 }
-body{background: url;
+
+.menu a:hover {
+    background-color: cornflowerblue;
+    color: whitesmoke;
+}
+.menu2 a {
+    background-color: cornflowerblue;
+    color: whitesmoke;
+    float: none;
+    text-align: center;
+    width: 10%;
+    font-size: 30px;
+    margin-left: 1800px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+.menu2 a:hover {
+    color: darkblue;
+    background-color:red;
+}
+body {
     background-attachment: fixed;
+    background-size: cover;
     background-color:aliceblue;
-    margin: 50px 200px 60px 200px;
+    margin: 0auto;
+    background-repeat: no-repeat;
+    width: 2200px; 
 }
 
+h1 {
+    text-align: center;
+    font-size: 60px; 
+    color: red; 
+    margin-top: 0px;
+}
+header{
+    font-size: 30px;
+    margin-top: 0px;
+    padding: 20px;
+    background-color: transparent;
+}
+
+.titulo {
+    width: 700px; 
+    margin:0 auto;
+}
 div {
-    width: 1200px;
-    margin: 0 auto;
+    width: 1400px;
+    margin: 50px 50px 50px 150px;
     padding-top: 50px;
+    color: red;
+    border: none;
 }
 
+.mensaje {
+    color: whitesmoke;
+    font-size: 40px; 
+    text-align: justify;
+    margin: 350px 50px 150px 500px;
+}
+.navegador {
+    font-size: 30px; 
+    color: cornflowerblue;
+}
 
-h2{
+h2 {
     color:darkkhaki;
     margin: 40px 50px 30px 0px;
 }
-a{
-    color:red;
+
+h3 {
+    font-size: 40px; color: whitesmoke;  
+}
+
+a {
+    color:ghostwhite;
     font-size:  40px;
     text-align:right;
 }
 img{
     width: 100%; 
 }
-principal{ 
-    width: 1200px;;
-}
 
 .segundaimagen{ 
     width: 800px;
 }
+
+.registro {
+    color: whitesmoke; 
+    font-size: 20px;
+    margin: 0px 0px 0px 200px;
+}
+
+.seleccionar {
+    color: whitesmoke; ; 
+    font-size: 20px;
+    margin: 0px 0px 0px 0px;
+}
+
+.datos {
+    font-size: 20px;
+}
 p{
     color:darkblue;
     text-align: justify;
-    font-size: 60px;
-    margin: 50px 20px 15px 10px
-
+    font-size: 40px;
+    margin: 50px 100px 15px 100px
 }
+
 h4{
     color: blue;
     border:1px dashed #fff;
@@ -49,6 +127,14 @@ h4{
 }
 
 nav{
-    background-color: azure;
+    background-color: transparent;
+    color:turquoise;
+    font-size: 35px;
+    text-align: justify;
 }
 
+footer {
+    margin: 10px;
+    font-size: 25px;
+    color:turquoise;
+}

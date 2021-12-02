@@ -15,6 +15,7 @@
     background-color: cornflowerblue;
     color: whitesmoke;
 }
+
 .menu2 a {
     background-color: cornflowerblue;
     color: whitesmoke;
@@ -30,6 +31,7 @@
     color: darkblue;
     background-color:red;
 }
+
 body {
     background-attachment: fixed;
     background-size: cover;
@@ -44,7 +46,18 @@ h1 {
     font-size: 60px; 
     color: red; 
     margin-top: 0px;
+    text-shadow: -3px 3px 5px #999;
 }
+h2 {
+    color:darkkhaki;
+    margin: 40px 50px 30px 0px;
+    text-shadow: -2px 3px 3px #999;;
+}
+
+h3 {
+    font-size: 40px; color: whitesmoke;  
+}
+
 header{
     font-size: 30px;
     margin-top: 0px;
@@ -56,6 +69,7 @@ header{
     width: 700px; 
     margin:0 auto;
 }
+
 div {
     width: 1400px;
     margin: 50px 50px 50px 150px;
@@ -75,32 +89,26 @@ div {
     color: cornflowerblue;
 }
 
-h2 {
-    color:darkkhaki;
-    margin: 40px 50px 30px 0px;
-}
-
-h3 {
-    font-size: 40px; color: whitesmoke;  
-}
-
 a {
     color:ghostwhite;
     font-size:  40px;
     text-align:right;
 }
-img{
+
+img {
     width: 100%; 
 }
 
-.segundaimagen{ 
+.segundaimagen { 
     width: 800px;
 }
 
-.registro {
+form {
     color: whitesmoke; 
     font-size: 20px;
-    margin: 0px 0px 0px 200px;
+    margin: 0px 500px 15px 200px;
+    box-shadow: 0px 3px 5px #999;
+    box-sizing: border-box;   
 }
 
 .seleccionar {
@@ -109,9 +117,18 @@ img{
     margin: 0px 0px 0px 0px;
 }
 
-.datos {
+label {
+    margin-left: 20px;
+}
+
+.opcion {
+    margin-left: 20px;
+}
+
+input {
     font-size: 20px;
 }
+
 p{
     color:darkblue;
     text-align: justify;
